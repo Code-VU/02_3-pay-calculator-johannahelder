@@ -1,0 +1,16 @@
+# 1. Bonus 
+def calculateRadius():
+    print("calculate radius")
+    import math
+    #Let user input radius
+    r = input("Enter Any Radius:")
+    area = math.pi*float(r)
+
+    print('A=',area)
+    print(math.pi)
+
+if __name__ == "__main__":
+    calculateRadius()
+
+
+
